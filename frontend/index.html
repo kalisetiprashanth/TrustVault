@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>TrustVault — Secure Document Sharing</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+<header class="topbar"><a class="brand" href="/">TrustVault<span>.</span></a><span class="tag">SECURE DOCUMENT WORKSPACE</span></header>
+<main class="container">
+  <section class="hero">
+    <div><p class="eyebrow">CONTROLLED ACCESS. ACCOUNTABLE SHARING.</p>
+      <h1>Your documents.<br><span>Your rules.</span></h1>
+      <p class="lead">A private workspace for sharing confidential files with document-level permissions and a traceable activity record.</p>
+      <div class="trust-points"><span>✓ Private file storage</span><span>✓ Named-user permissions</span><span>✓ Auditable activity</span></div>
+    </div>
+    <section class="panel login-panel">
+      <p class="eyebrow">WELCOME BACK</p><h2>Sign in to TrustVault</h2>
+      <form id="loginForm">
+        <label>Username<input name="username" required autocomplete="username" placeholder="Enter username"></label>
+        <label>Password<input name="password" type="password" required autocomplete="current-password" placeholder="Enter password"></label>
+        <button class="btn primary" type="submit">Sign in securely <span>→</span></button>
+        <p id="loginMessage" class="message"></p>
+      </form>
+      <p class="small muted">Demo accounts are listed in README.md. Change their passwords before deployment.</p>
+    </section>
+  </section>
+  <footer>TrustVault · Secure document sharing demonstration</footer>
+</main>
+<script src="/static/js/app.js"></script>
+</body></html>
